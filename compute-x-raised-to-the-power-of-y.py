@@ -4,6 +4,10 @@ ignore overflow and underflow.
 
 Hint: Exploit mathematical properties of exponentiation.
 
+NOTES:
+- The number of multiplications is at most twice the index of y's MSB, implying
+an O(n) time complexity.
+
 """
 
 def power(x, y):
