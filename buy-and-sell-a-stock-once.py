@@ -12,6 +12,12 @@ that stock. There is no need to buy if no profit is possible.
 """
 
 def buy_and_sell_stock_once(prices):
+    """
+    Space complexity: O(1)
+    Time complexity: O(n)
+    
+    """
+
     min_price_so_far, max_profit = float('inf'), 0.0
     for price in prices:
         max_profit_sell_today = price - min_price_so_far
