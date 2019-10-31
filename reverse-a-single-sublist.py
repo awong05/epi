@@ -18,6 +18,12 @@ Hint: Focus on the successor fields which have to be updated.
 """
 
 def reverse_sublist(L, start, finish):
+    """
+    Space complexity: O(1)
+    Time complexity: O(f)
+
+    """
+
     dummy_head = sublist_head = ListNode(0, L)
     for _ in range(1, start):
         sublist_head = sublist_head.next
