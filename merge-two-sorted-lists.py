@@ -3,14 +3,6 @@ class ListNode:
         self.data = data
         self.next = next_node
 
-    def __repr__(self):
-        buffer = []
-        cur = self
-        while cur:
-            buffer.append(str(cur.data))
-            cur = cur.next
-        return ''.join(buffer)
-
 
 """
 Consider two singly linked lists in which each node holds a number. Assume the
