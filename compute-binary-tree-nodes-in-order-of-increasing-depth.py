@@ -13,6 +13,12 @@ Hint: First think about solving this problem with a pair of queues.
 """
 
 def binary_tree_depth_order(tree):
+    """
+    Space complexity: O(m)
+    Time complexity: O(n)
+
+    """
+
     result = []
     if not tree:
         return result
